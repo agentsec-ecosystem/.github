@@ -33,6 +33,20 @@ harness the four capabilities that matter.
 
 > Status reflects reality. Each repo is published as it becomes usable, not before.
 
+## Superseded repositories
+
+Earlier prototypes have been folded into the stack above and **archived** (read-only, not deleted).
+They remain available for history and incoming links, but all future work happens in the successor
+repositories.
+
+| Archived (superseded) | Replaced by |
+|---|---|
+| [mcplex](https://github.com/agentsec-ecosystem/mcplex) | [agentkeys](https://github.com/agentsec-ecosystem/agentkeys) |
+| [agent-exec-trace](https://github.com/agentsec-ecosystem/agent-exec-trace) | [agentwatch](https://github.com/agentsec-ecosystem/agentwatch) |
+| [agent-tooltrust](https://github.com/agentsec-ecosystem/agent-tooltrust) | [agentpolicy](https://github.com/agentsec-ecosystem/agentpolicy) / [agentgate](https://github.com/agentsec-ecosystem/agentgate) |
+| [ai-loopguard](https://github.com/agentsec-ecosystem/ai-loopguard) | [agenthalt](https://github.com/agentsec-ecosystem/agenthalt) |
+| [agent-eval-forge](https://github.com/agentsec-ecosystem/agent-eval-forge) | [agentdrill](https://github.com/agentsec-ecosystem/agentdrill) |
+
 ## Principles
 
 - **Harness-agnostic** — Tier 1 coding agents, agent frameworks, and generic MCP clients.
