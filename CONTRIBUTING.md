@@ -31,11 +31,30 @@ below is the default; a repository's own `CONTRIBUTING.md` overrides it.
 Use clear, imperative subject lines (`add rate-limit policy action`, not `added stuff`).
 Conventional Commits are welcome but not required.
 
+## Developer Certificate of Origin (DCO)
+
+Every commit must be signed off. Add a `Signed-off-by` line with your real name and email:
+
+```sh
+git commit -s -m "add rate-limit policy action"
+```
+
+Which produces:
+
+```
+Signed-off-by: Jane Dev <jane@example.com>
+```
+
+By signing off you certify the [Developer Certificate of Origin](./DCO). We do **not** use a CLA.
+A CI check enforces this on pull requests; to fix a missing sign-off, amend or rebase with `-s`.
+
 ## Licensing
 
 By contributing, you agree that your contributions are licensed under the Apache License 2.0 (see
 the repository's `LICENSE`). Do not add code you cannot license this way; note third-party
 attribution in `THIRD_PARTY_NOTICES.md` where it applies.
+
+See [GOVERNANCE.md](./GOVERNANCE.md) for the maintainer ladder, review rules, and decision-making.
 
 ## Code of conduct
 
