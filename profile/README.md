@@ -55,6 +55,21 @@ repositories.
 - **No paywalled enforcement, no proprietary formats** — Apache-2.0, open schema, portable policy.
 - **Honest results** — a public benchmark, including what we miss.
 
+## Get started
+
+One command installs the Wave 0 stack for Claude Code — recording first, monitor-only by default:
+
+```sh
+npx @agentsec-ecosystem/cli init
+```
+
+It installs the Claude Code hooks and a local daemon, records every tool call (arguments redacted
+by default), and enforces nothing until you opt in. `agentsec init --enforce` turns on the policy
+gates.
+
+> **Status: not yet available.** The CLI ships with Wave 0. This is the intended UX, published
+> early so we can be held to it.
+
 ## Get involved
 
 - Read [`CONTRIBUTING.md`](https://github.com/agentsec-ecosystem/.github/blob/main/CONTRIBUTING.md)
