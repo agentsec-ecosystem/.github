@@ -1,0 +1,50 @@
+# agentsec-ecosystem
+
+**Open-source, harness-agnostic security for AI agents.**
+
+AI coding agents and MCP clients now hold shell access, filesystem access, credentials, and tool
+integrations — and today's tooling rarely lets a security team *see*, *stop*, or *undo* what an
+agent does. We're building the missing layer: one coherent, Apache-2.0 ecosystem that gives any
+harness the four capabilities that matter.
+
+| Capability | What it means |
+|---|---|
+| **Monitor** | Structured, OpenTelemetry-compatible telemetry for every agent tool call |
+| **Alert** | Policy-driven detection of risky behavior, in real time |
+| **Block / limit** | Allow / deny / ask / rate-limit / redact enforcement |
+| **Revoke** | Credential brokering and one-action revocation |
+
+## The stack
+
+| Tool | Role | Status |
+|---|---|---|
+| [agentwatch](https://github.com/agentsec-ecosystem/agentwatch) | OTel GenAI telemetry + security-event schema | planned |
+| [agentpolicy](https://github.com/agentsec-ecosystem/agentpolicy) | Cedar PDP: allow/deny/ask/rate-limit/redact | planned |
+| [agentgate](https://github.com/agentsec-ecosystem/agentgate) | MCP OAuth 2.1 authorization proxy | planned |
+| [agentkeys](https://github.com/agentsec-ecosystem/agentkeys) | Never-in-context credential broker + revocation | planned |
+| [agentseatbelt](https://github.com/agentsec-ecosystem/agentseatbelt) | Portable local enforcement, macOS-first | planned |
+| [agentkernel](https://github.com/agentsec-ecosystem/agentkernel) | Linux eBPF visibility + enforcement | planned |
+| [agenthalt](https://github.com/agentsec-ecosystem/agenthalt) | Universal kill-switch + evidence preservation | planned |
+| [policyweave](https://github.com/agentsec-ecosystem/policyweave) | One Cedar policy → every harness format | planned |
+| [agentdrill](https://github.com/agentsec-ecosystem/agentdrill) | Attack packs in CI vs. deployed policies | planned |
+| [agentcomply](https://github.com/agentsec-ecosystem/agentcomply) | SOC 2 / ISO 42001 evidence automation | planned |
+| [agentinbox](https://github.com/agentsec-ecosystem/agentinbox) | Ask-gate consumer (Slack/terminal/CI/mobile) | planned |
+| [agentdiff](https://github.com/agentsec-ecosystem/agentdiff) | Dry-run "would-have-blocked" conversion | planned |
+
+> Status reflects reality. Each repo is published as it becomes usable, not before.
+
+## Principles
+
+- **Harness-agnostic** — Tier 1 coding agents, agent frameworks, and generic MCP clients.
+- **Adopt, don't rebuild** — we build on existing OSS (LiteLLM, agent-scan, sandbox-runtime, Cedar, eBPF tooling).
+- **No ML in enforcement paths** — deterministic, auditable policy decisions.
+- **No paywalled enforcement, no proprietary formats** — Apache-2.0, open schema, portable policy.
+- **Honest results** — a public benchmark, including what we miss.
+
+## Get involved
+
+- Read [`CONTRIBUTING.md`](https://github.com/agentsec-ecosystem/.github/blob/main/CONTRIBUTING.md)
+- Report vulnerabilities per [`SECURITY.md`](https://github.com/agentsec-ecosystem/.github/blob/main/SECURITY.md)
+- Build with us — see the org's pinned repositories and discussions.
+
+Licensed under the [Apache License 2.0](https://github.com/agentsec-ecosystem/.github/blob/main/LICENSE).
