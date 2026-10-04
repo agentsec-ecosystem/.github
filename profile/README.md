@@ -18,7 +18,7 @@ harness the four capabilities that matter.
 
 | Tool | Role | Status |
 |---|---|---|
-| [agentwatch](https://github.com/agentsec-ecosystem/agentwatch) | OTel GenAI telemetry + security-event schema | planned |
+| [agentwatch](https://github.com/agentsec-ecosystem/agentwatch) | OTel GenAI telemetry + security-event schema | `v0.1.0` shipped |
 | [agentpolicy](https://github.com/agentsec-ecosystem/agentpolicy) | Cedar PDP: allow/deny/ask/rate-limit/redact | planned |
 | [agentgate](https://github.com/agentsec-ecosystem/agentgate) | MCP OAuth 2.1 authorization proxy | planned |
 | [agentkeys](https://github.com/agentsec-ecosystem/agentkeys) | Never-in-context credential broker + revocation | planned |
@@ -42,7 +42,6 @@ repositories.
 | Archived (superseded) | Replaced by |
 |---|---|
 | [mcplex](https://github.com/agentsec-ecosystem/mcplex) | [agentkeys](https://github.com/agentsec-ecosystem/agentkeys) |
-| [agent-exec-trace](https://github.com/agentsec-ecosystem/agent-exec-trace) | [agentwatch](https://github.com/agentsec-ecosystem/agentwatch) |
 | [agent-tooltrust](https://github.com/agentsec-ecosystem/agent-tooltrust) | [agentpolicy](https://github.com/agentsec-ecosystem/agentpolicy) / [agentgate](https://github.com/agentsec-ecosystem/agentgate) |
 | [ai-loopguard](https://github.com/agentsec-ecosystem/ai-loopguard) | [agenthalt](https://github.com/agentsec-ecosystem/agenthalt) |
 | [agent-eval-forge](https://github.com/agentsec-ecosystem/agent-eval-forge) | [agentdrill](https://github.com/agentsec-ecosystem/agentdrill) |
